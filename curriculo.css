@@ -1,0 +1,75 @@
+.row{
+	height: 150rem;
+}
+/*define o tamanho da navbar, largura e margem esquerda*/
+.navbar {
+	width: 17.1rem;
+	margin-left: 4rem;
+	height: 50rem;
+	background-color: #bd5d38;
+}
+img	{
+	width: 12rem;
+	border: .5rem solid rgba(255,255,255,.2);
+}
+/*alinhamento da brand e botoes*/
+#conteudo {
+	margin-bottom: 20rem;
+	margin-left: 1.8rem;
+}
+/*Formatação do texto*/
+#navbody {
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 18px;
+}
+#texto {
+	margin-top: 7rem;
+}
+h1	{
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #343a40;
+	margin-left: 30px;
+}
+span {
+	color: #bd5d38;
+}
+
+#contato {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: gray;
+	margin-left: 35px;
+}
+p	{
+	color: gray;
+	font-size: 20px;
+	margin-left: 35px;
+}
+hr	{
+	margin-top: 19.2rem;
+}
+#hr2 {
+	margin-top: 27rem;
+}
+h2	{
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 40px;
+	margin-left: 30px;
+}
+#data {
+	color: #bd5d38;
+	padding-left: 12rem;
+	font-size: 20px;
+}
+h3	{
+	margin-left: 35px;
+
+}
