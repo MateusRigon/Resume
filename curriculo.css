@@ -14,7 +14,7 @@ img	{
 }
 /*alinhamento da brand e botoes*/
 #conteudo {
-	margin-bottom: 20rem;
+	margin-bottom: 18rem;
 	margin-left: 1.8rem;
 }
 /*Formatação do texto*/
@@ -46,13 +46,16 @@ span {
 	color: gray;
 	margin-left: 35px;
 }
+#email:hover {
+	text-decoration: underline;
+}
 p	{
 	color: gray;
 	font-size: 20px;
 	margin-left: 35px;
 }
 hr	{
-	margin-top: 19.2rem;
+	margin-top: 13rem;
 }
 #hr2 {
 	margin-top: 27rem;
@@ -73,3 +76,35 @@ h3	{
 	margin-left: 35px;
 
 }
+.socialicons a {
+    margin-right: 1rem;
+    background-color: #495057;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    border-radius: 100%;
+    color: white;
+}
+
+.socialicons a:hover {
+	background-color: #bd5d38;
+}
+
+.socialicons {
+	margin-left: 35px;
+    margin-top: 3rem;
+}
+
+.slides {
+	width: 45rem;
+	margin-left: 9rem;
+	margin-top: 3rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
