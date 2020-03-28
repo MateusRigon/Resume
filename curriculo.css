@@ -1,5 +1,5 @@
 .row{
-	height: 150rem;
+	height: 180rem;
 }
 /*define o tamanho da navbar, largura e margem esquerda*/
 .navbar {
@@ -54,12 +54,20 @@ p	{
 	font-size: 20px;
 	margin-left: 35px;
 }
-hr	{
+#hr1	{
 	margin-top: 13rem;
 }
 #hr2 {
-	margin-top: 27rem;
+	margin-top: 4.5rem;
 }
+#hr3 {
+	margin-top: 3rem;
+}
+#hr4{
+	margin-top: 22rem;
+}
+
+
 h2	{
 	padding-top: 30px;
 	text-transform: uppercase;
@@ -101,10 +109,23 @@ h3	{
 .slides {
 	width: 45rem;
 	margin-left: 9rem;
-	margin-top: 3rem;
+	margin-top: 4rem;
 }
 html {
   scroll-behavior: smooth;
+}
+#hr3 {
+	margin-top: 3rem;
+}
+.dev-icons a {
+	margin-left: 35px;
+	margin-top: 1rem;
+	display: inline-block;
+    font-size: 3rem;
+    color: gray;
+}
+.dev-icons a:hover{
+ 	color: #bd5d38;
 }
 
 
