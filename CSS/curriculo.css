@@ -1,5 +1,5 @@
 .row{
-	height: 180rem;
+	height: 190rem;
 }
 /*define o tamanho da navbar, largura e margem esquerda*/
 .navbar {
@@ -60,13 +60,9 @@ p	{
 #hr2 {
 	margin-top: 4.5rem;
 }
-#hr3 {
-	margin-top: 3rem;
-}
 #hr4{
-	margin-top: 22rem;
+	margin-top: 18rem;
 }
-
 
 h2	{
 	padding-top: 30px;
@@ -106,13 +102,16 @@ h3	{
     margin-top: 3rem;
 }
 
-.slides {
+.imagens {
 	width: 45rem;
-	margin-left: 9rem;
+	margin-left: 8rem;
 	margin-top: 4rem;
 }
 html {
   scroll-behavior: smooth;
+}
+body{
+	 position: relative;
 }
 #hr3 {
 	margin-top: 3rem;
@@ -128,4 +127,42 @@ html {
  	color: #bd5d38;
 }
 
+.slide{
+	width: 45rem;
+	margin-left: 8rem;
+	margin-top: 3rem;
+}
 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+}
+
+.prev{
+	margin-left: 4.5rem;
+}
+.next {
+  right: 0;
+  margin-right: 5rem;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
