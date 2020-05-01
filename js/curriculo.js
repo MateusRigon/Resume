@@ -29,17 +29,28 @@ function plusSlides(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-
+  
+  if(slideIndex == 1 || slideIndex == 2 || slideIndex == 5){
+    document.getElementById("descricao1").style.display = "block";
+    document.getElementById("descricao2").style.display = "none";
+  }
+  if (slideIndex == 3 || slideIndex == 0 || slideIndex == 4) {
+    document.getElementById("descricao1").style.display = "none";
+    document.getElementById("descricao2").style.display = "block";
+  }
+  
   if (n > slides.length) {
     slideIndex = 1
   }
   if (n < 1) {
     slideIndex = slides.length
+
   }
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
 
   slides[slideIndex-1].style.display = "block";
+  
  
 }

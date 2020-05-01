@@ -1,18 +1,17 @@
 @media only screen and (max-width: 1249px) { 
 	.navbar{ height: 14%; }
-	#nav1{ position: absolute; margin: -45px -15px;  }
-	#nav2{ position: absolute; margin: -45px 4rem;}
-	#nav3{ position: absolute; margin: -45px 15.5rem;}
-	#nav4{ position: absolute; margin-left: 1rem;}
-	#nav5{ position: absolute; margin-left: 9rem;}
+	#nav1{ position: absolute; margin: -50px -15px;  }
+	#nav2{ position: absolute; margin: -50px 4rem;}
+	#nav3{ position: absolute; margin: -50px 15.5rem;}
+	#nav4{ position: absolute; margin: -10px 1rem;}
+	#nav5{ position: absolute; margin: -10px 0px 0px 9rem;}
 	#img1{ display: none;}
+	
 } 
 @media only screen and (min-width: 1250px) { 
 	.navbar{width: 17.1rem; margin-left: 4rem; height: 100%;}
 	img{ width: 12rem; }
 	.slide{width: 45rem; margin: 3rem 8rem;}
-	.prev{ margin-left: 4.5rem; }
-	.next{ margin-right: 5rem; }
 } 
 
 .row{
@@ -22,6 +21,8 @@
 .navbar {
 	background-color: #bd5d38;
 }
+#brand{
+	margin-top: 20px;
 }
 img	{
 	border: .5rem solid rgba(255,255,255,.2);
@@ -92,7 +93,7 @@ h2	{
 }
 h3	{
 	margin-left: 35px;
-
+	margin-bottom: auto;
 }
 .socialicons a {
     margin-right: 1rem;
@@ -114,12 +115,6 @@ h3	{
 .socialicons {
 	margin-left: 35px;
     margin-top: 3rem;
-}
-
-.imagens {
-	width: 45rem;
-	margin-left: 8rem;
-	margin-top: 4rem;
 }
 html {
   scroll-behavior: smooth;
@@ -162,11 +157,20 @@ body{
   font-size: 18px;
   transition: 0.6s ease;
 }
-
+.prev{
+	margin-left: 20px;
+}
 .next {
   right: 0;
+  margin-right: 20px;
 }
 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+#descricao1{
+	display: none;
+}
+#descricao2{
+	display: none;
 }
